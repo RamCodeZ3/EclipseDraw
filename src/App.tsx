@@ -1,8 +1,12 @@
+import Canvas from "./components/Canvas"
+
 function App() {
 
   return (
     <>
-      <span>hello word</span>
+      <main className="overflow-y-none">
+        <Canvas/>
+      </main>
     </>
   )
 }
