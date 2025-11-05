@@ -51,5 +51,5 @@ export default function Canvas(){
 
     },[isDrawing])
 
-    return <canvas ref={canvasRef} width={4000} height={4000} className=" bg-neutral-800"></canvas>
+    return <canvas ref={canvasRef} width={4000} height={4000} className=" bg-neutral-900"></canvas>
 }

@@ -1,4 +1,5 @@
 import Canvas from "./components/Canvas"
+import ToolsWebDraw from "./components/ToolsWebDraw"
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <main className="overflow-y-none">
         <Canvas/>
+        <ToolsWebDraw/>
       </main>
     </>
   )
